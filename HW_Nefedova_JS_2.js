@@ -12,7 +12,7 @@
  //8. Должна быть хотя бы одна @
  //9. Строка не должна быть пустой
 
- let data_1 = "фф@Aggg"
+ let data_1 = "12345"
 //  console.log(/[A-ZА-ЯЁ]/.test(data_1))
 
  function index_data(data_1){
@@ -31,7 +31,7 @@
     }else if (data_1.length < 5 ){
         console.log("Lower than 5 symbol")
     }else if (data_1.length > 64 ){
-        console.log("Higher than 64 symbol")
+        console.log("Longer than 64 symbol")
     }else{
         console.log("Correct!")
     }
